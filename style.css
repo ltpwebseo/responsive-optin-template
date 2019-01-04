@@ -1,0 +1,172 @@
+/* Main Styles */
+
+section#content{
+	background: #f1f1f1;
+	margin-top: -50px;/*This creates a gap*/
+	padding-top: 50px;
+}
+
+
+
+h1 {
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.fa {
+	color: green;
+}
+
+img#lady.img-responsive{
+	width: 100%;
+	
+}
+
+.plead {
+	font-size: 24px;
+	font-weight: 500;
+	color: #bbb;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.sub {
+	font-size: 20px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.ltgreenlead {
+	text-transform: uppercase;
+	color: rgb(115, 182, 90);
+	font-weight: bold;	
+}
+
+.btngreen {
+	margin: 20px auto;
+	color: #fff;
+	font-size: 24px;
+	padding: 20px;
+	border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	background: green;
+	width: 90%;
+}
+.btngreen:hover {
+	color: #fff;
+	background: rgb(115, 182, 90);
+	transition: 1s;
+}
+
+
+.btnblue {
+	margin: 10px auto;
+	color: #fff;
+	font-size: 24px;
+	padding: 15px;
+	border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #007cc2;
+	width: 80%;
+}
+.btnblue:hover {
+	color: #fff;
+	background: rgb(115, 182, 90);
+	transition: 1s;
+}
+
+
+#hereiswhat {
+	box-sizing: border-box; 
+	color: rgb(136, 136, 136); 
+	font-family: Montserrat, Helvetica, sans-serif; 
+	font-size: 20px; 
+	letter-spacing: normal; 
+	margin: 40px 0;
+	text-align: center;
+}
+#showyou {
+	color: rgb(47, 47, 47); 
+	font-family: Montserrat, Helvetica, sans-serif; 
+	font-size: 50px; 
+	letter-spacing: normal; 
+	text-align: center;
+	margin-top: -15px;
+}
+
+.boxtext {
+	color: rgb(136, 136, 136); 
+	font-family: Montserrat, Helvetica, sans-serif; 
+	font-size: 18px; 
+	letter-spacing: normal; 
+	text-align: center;
+}
+
+#footer {
+	background: rgb(33, 37, 41);
+	min-height: 100px;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+.o4x {
+	font-size: 70px;
+	color: rgb(115, 182, 90);
+}
+.yes {
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 991px){
+	
+	h1 {
+		font-size: 35px;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+	}
+	.plead {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.sub {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	
+
+	.btngreen {
+		font-size: 20px;
+	}
+	
+}
+
+@media screen and (max-width: 768px){
+	
+	img#lady.img-responsive{
+		width: 70%;
+		margin: 32px auto!important;
+	}
+	h1,
+	.plead,
+	.sub,
+	.ldzlogo,
+	img#cta {
+		text-align: center;
+		margin: 10px auto!important;
+	}
+	
+	
+}
